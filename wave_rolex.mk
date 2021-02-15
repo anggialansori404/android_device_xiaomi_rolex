@@ -25,6 +25,9 @@ $(call inherit-product, vendor/wave/configs/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Vanilla varient
+VANILLA_BUILD := true
+
 # Inherit from rolex device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
